@@ -1,9 +1,31 @@
 ---
-title: Welcome to Middleman
+title: Frankenstein
 ---
 
-.welcome
-  h1 Middleman is watching
+h1 Frankenstein
 
-  .doc
-    == link_to "Read Online Documentation", "http://middlemanapp.com/" 
+#base
+  strong Base
+
+  strong Typography
+  == partial "/layouts/partials/base/headings"
+  == partial "/layouts/partials/base/paragraphs"
+  == partial "/layouts/partials/base/lists"
+  == partial "/layouts/partials/base/emphasis"
+  == partial "/layouts/partials/base/misc"
+
+  strong Tables
+  == partial "/layouts/partials/base/tables"
+  
+  strong Forms
+  == partial "/layouts/partials/base/form"
+  == partial "/layouts/partials/base/buttons" 
+
+#scaffolds
+  strong Scaffolds
+
+#modules
+  strong Modules
+
+#themes
+  strong Themes
